@@ -1,0 +1,1 @@
+<?PHP$Host="localhost";$UserDB="root";$PassDB="";$DB="member";$Con=mysqli_connect($Host,$UserDB,$PassDB,$DB);if(!$Con){    echo mysqli_error();}?>
